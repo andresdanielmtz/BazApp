@@ -1,12 +1,12 @@
 import React from 'react'; 
 import { StyleSheet, Text, View, Image, Button, TextInput} from "react-native";
 
-const Main = () => { 
+const Seller = () => { 
     return ( 
         <>
-         <Text> Siempre pasa </Text>
+         <Text> Texto de Prueba: VENDEDOR </Text>
          </> 
     )
 }
 
-export default Main; 
+export default Seller; 

@@ -49,9 +49,14 @@ function Home() {
           style={{padding: 10}}
         />
         <Button
-        title="Get Started"
-        onPress={() => navigation.navigate('Main')}
+        title="Vista del Cliente"
+        onPress={() => navigation.navigate('Buyer')}
       />
+
+      <Button
+      title = "Vista del Vendedor"
+      onPress = {() => navigation.navigate('Seller')}
+      /> 
         </View>
 
 
