@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "baz",
-    "slug": "baz",
-    "version": "1.0.0",
+    "name": "Bazapp",
+    "slug": "Bazapp",
+    "version": "1.0.01",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
