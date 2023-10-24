@@ -2,13 +2,11 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { StyleSheet, Text, View, Image, Button, TextInput } from "react-native";
 import Logo from "./assets/logo.png";
-import CustomButton from "./CustomButton"; 
-
+import CustomButton from "./CustomButton";
 
 function Home() {
   const [valueLogin, onChangeTextLogin] = React.useState("");
-  const [valuePassword, onChangeTextPassword] =
-    React.useState("");
+  const [valuePassword, onChangeTextPassword] = React.useState("");
 
   const navigation = useNavigation();
 
@@ -17,17 +15,17 @@ function Home() {
       <View style={styles.header}>
         <Image style={styles.logo} source={Logo} />
         <Text style={styles.title}>BazApp</Text>
-        <Text style={styles.subtitle}>Tu Bazaar a un dedo de distancia.</Text>
+        <Text style={styles.subtitle}>Tu bazar a un dedo de distancia.</Text>
       </View>
 
       <View style={styles.content}>
         <Text style={styles.description}>
-          Descubre multiples items de bazaar de varios vendedores todo en un
-          solo lugar.
+          Descubre una gran variedad de artículos de bazar de diversos
+          vendedores, todos en un mismo lugar.
         </Text>
 
-        <Text style={styles.title_main}> Login </Text>
-        <Text style={styles.title_login}> Username </Text>
+        <Text style={styles.title_main}> Iniciar Sesión </Text>
+        <Text style={styles.title_login}> Usuario </Text>
         <TextInput
           editable
           multiline
@@ -36,31 +34,31 @@ function Home() {
           onChangeText={(text) => onChangeTextLogin(text)}
           value={valueLogin}
           style={styles.textView}
-          placeholder="Insertar Usuario"
+          placeholder="Ingresar Usuario"
           placeholderTextColor="#878787"
           returnKeyType="go"
-          secureTextEntry
+    
           autoCorrect={false}
         />
 
-        <Text style={styles.title_login}> Password </Text>
+        <Text style={styles.title_login}> Contraseña </Text>
         <TextInput
           editable
-          multiline
-          numberOfLines={4}
+          multiline={false} // Set to false for password input
+          numberOfLines={1} // Set to 1 for password input
           maxLength={40}
           onChangeText={(text) => onChangeTextPassword(text)}
           value={valuePassword}
           style={styles.textView}
-          placeholder="Insertar Contraseña"
+          placeholder="Ingresar Contraseña"
           placeholderTextColor="#878787"
           returnKeyType="go"
-          secureTextEntry
+          secureTextEntry={true} // This prop makes it a password-style input
           autoCorrect={false}
         />
       </View>
 
-      <CustomButton navigation={navigation} /> 
+      <CustomButton navigation={navigation} />
     </View>
   );
 }
@@ -94,14 +92,14 @@ const styles = StyleSheet.create({
     fontStyle: "italic",
   },
   content: {
-    padding: 20,
+    padding: 15,
     alignItems: "center",
     justifyContent: "center",
   },
   description: {
     fontSize: 18,
     textAlign: "center",
-    marginBottom: 20,
+    marginBottom: 15,
   },
   textView: {
     borderLeftWidth: 1,
@@ -110,7 +108,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderRadius: 10,
     padding: 10,
-    marginBottom: 15,
+    marginBottom: 10,
     width: 200, // Fixed width
     justifyContent: "center",
     textAlign: "center",
