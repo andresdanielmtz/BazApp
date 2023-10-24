@@ -1,6 +1,5 @@
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
-import { useNavigation } from "@react-navigation/native";
 
 const styles = StyleSheet.create({
     button: {

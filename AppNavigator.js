@@ -2,7 +2,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './Home';
-import Buyer from './view/Buyer';
+import Buyer from './view/Buyer/Buyer';
 import Seller from "./view/Seller"; 
 
 const Stack = createStackNavigator();

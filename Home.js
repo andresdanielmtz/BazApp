@@ -6,9 +6,9 @@ import CustomButton from "./CustomButton";
 
 
 function Home() {
-  const [valueLogin, onChangeTextLogin] = React.useState("Insert Login");
+  const [valueLogin, onChangeTextLogin] = React.useState("");
   const [valuePassword, onChangeTextPassword] =
-    React.useState("Insert Password");
+    React.useState("");
 
   const navigation = useNavigation();
 
@@ -36,7 +36,7 @@ function Home() {
           onChangeText={(text) => onChangeTextLogin(text)}
           value={valueLogin}
           style={styles.textView}
-          placeholder="Insert Account Username"
+          placeholder="Insertar Usuario"
           placeholderTextColor="#878787"
           returnKeyType="go"
           secureTextEntry
@@ -52,7 +52,7 @@ function Home() {
           onChangeText={(text) => onChangeTextPassword(text)}
           value={valuePassword}
           style={styles.textView}
-          placeholder="Insert Account Password"
+          placeholder="Insertar Contraseña"
           placeholderTextColor="#878787"
           returnKeyType="go"
           secureTextEntry
