@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Image, Button } from "react-native";
+import { StyleSheet, Text, View, Image, Button, TextInput} from "react-native";
 import { styled } from "nativewind";
 import React from "react";
 
@@ -7,6 +7,7 @@ const StyledView = styled(View);
 const StyledText = styled(Text);
 
 export default function App() {
+  const [value, onChangeText] = React.useState('Useless Multiline Placeholder');
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -21,9 +22,31 @@ export default function App() {
       <View style={styles.content}>
         <Text style={styles.description}>
           Discover endless bazaar items from multiple vendors all in one place.
-          BazApp centralizes your shopping experience, making it easier than
-          ever to find what you're looking for.
+
         </Text>
+
+        <Text> Login </Text> 
+        <Text> Username </Text>
+        <TextInput
+        editable
+        multiline
+        numberOfLines={4}
+        maxLength={40}
+        onChangeText={text => onChangeText(text)}
+        value={value}
+        style={{padding: 10}}
+      />
+
+      <Text> Password </Text> 
+      <TextInput
+        editable
+        multiline
+        numberOfLines={4}
+        maxLength={40}
+        onChangeText={text => onChangeText(text)}
+        value={value}
+        style={{padding: 10}}
+      />
         <Button
           title="Get Started"
           onPress={() => alert("Navigate to Sign Up/Sign In")}
@@ -43,7 +66,7 @@ const styles = StyleSheet.create({
   header: {
     paddingTop: 60,
     paddingBottom: 20,
-    backgroundColor: "#6200EA",
+    backgroundColor: "#ba7f36",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -59,8 +82,9 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 16,
-    color: "#BB86FC",
+    color: "#ffffff",
     marginTop: 5,
+    fontStyle:"italic", 
   },
   content: {
     padding: 20,
