@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { StyleSheet, Text, View, Image, Button, TextInput } from "react-native";
 import Logo from "./assets/logo.png";
-import CustomButton from "./CustomButton";
+import HomeButton from "./buttons/homeButton";
 
 function Home() {
   const [valueLogin, onChangeTextLogin] = React.useState("");
@@ -58,7 +58,7 @@ function Home() {
         />
       </View>
 
-      <CustomButton navigation={navigation} />
+      <HomeButton navigation={navigation} />
     </View>
   );
 }
