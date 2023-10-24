@@ -6,8 +6,7 @@ const Buyer = () => {
     return ( 
         <ScrollView>
             <Text style={styles.title}>Catálogo</Text>
-            <BuyerPost/> 
-            
+            <BuyerPost/>       
         </ScrollView> 
     )
 }
