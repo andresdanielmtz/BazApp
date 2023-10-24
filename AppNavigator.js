@@ -9,8 +9,9 @@ const Stack = createStackNavigator();
 
 function AppNavigator() {
   return (
-    <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Home" component={Home} />
+    <Stack.Navigator initialRouteName="Home" 
+    >
+      <Stack.Screen name="Home" component={Home}/>
       <Stack.Screen name="Buyer" component={Buyer} />
       <Stack.Screen name="Seller" component = {Seller} /> 
 
