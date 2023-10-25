@@ -1,5 +1,7 @@
 export async function SaveData(title, subtitle, used, footer) {
-    const endpoint = 'http://192.168.100.8:3000/db';
+    const endpoint = 'http://192.168.1.65:3000/db';
+    // ramon: 
+    // const endpoint = 'http://192.168.100.8:3000/db';
     
     try {
         const result = await fetch(endpoint, {
