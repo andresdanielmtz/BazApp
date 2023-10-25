@@ -1,17 +1,19 @@
 import React from 'react'; 
 import { useNavigation } from "@react-navigation/native";
 import { StyleSheet, Text, View, Image, Button, TextInput, ScrollView} from "react-native";
+import BuyerPost from '../../view/Buyer/BuyerPost'; 
 
 const AddSeller = () => { 
 
     return ( 
-        <View style={styles.container}>
-            <View style={styles.header}>
-                <ScrollView>
-                    <Text style={styles.title}>Agregar Productos</Text>
-                </ScrollView> 
-            </View>
-        </View>   
+        <ScrollView>
+            <View style={styles.container}>
+                <View style={styles.header}>  
+                        <Text style={styles.title}>Agregar Productos</Text>
+                </View>
+                <BuyerPost/>
+            </View>  
+        </ScrollView> 
     )
 }
 
