@@ -7,14 +7,14 @@ function SellerButton({ navigation }) {
     <>
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => navigation.navigate('AddSeller')}
+        onPress={() => navigation.navigate('Agrega Producto')}
       >
         <Text style={styles.buttonText}>Agregar Producto</Text>
       </TouchableOpacity>
 
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => navigation.navigate('DeleteSeller')}
+        onPress={() => navigation.navigate('Elimina Producto')}
       >
         <Text style={styles.buttonText}>Eliminar Producto</Text>
       </TouchableOpacity>

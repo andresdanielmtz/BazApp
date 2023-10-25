@@ -7,7 +7,7 @@ function AddContentButton({ navigation }) {
     <>
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => navigation.navigate('AddSellerGet')}
+        onPress={() => navigation.navigate('Llena tu Formulario')}
       >
         <Text style={styles.buttonText}>+</Text>
       </TouchableOpacity>

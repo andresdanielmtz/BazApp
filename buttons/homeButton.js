@@ -7,14 +7,14 @@ function HomeButton({ navigation }) {
     <>
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => navigation.navigate('Buyer')}
+        onPress={() => navigation.navigate('Cliente')}
       >
         <Text style={styles.buttonText}>Iniciar Sesión como Cliente</Text>
       </TouchableOpacity>
 
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => navigation.navigate('Seller')}
+        onPress={() => navigation.navigate('Vendedor')}
       >
         <Text style={styles.buttonText}>Iniciar Sesión como Vendedor</Text>
       </TouchableOpacity>
