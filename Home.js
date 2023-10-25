@@ -66,7 +66,8 @@ function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#00192A",
+
   },
   header: {
     paddingTop: 60,
@@ -74,6 +75,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#00192A",
     alignItems: "center",
     justifyContent: "center",
+    color: "#fff",
   },
   logo: {
     width: 100,
@@ -95,11 +97,13 @@ const styles = StyleSheet.create({
     padding: 15,
     alignItems: "center",
     justifyContent: "center",
+    color: "#fff",
   },
   description: {
-    fontSize: 18,
+    fontSize: 12,
     textAlign: "center",
     marginBottom: 15,
+    color: "#fff",
   },
   textView: {
     borderLeftWidth: 1,
@@ -112,17 +116,20 @@ const styles = StyleSheet.create({
     width: 200, // Fixed width
     justifyContent: "center",
     textAlign: "center",
+    backgroundColor: "#fff",
+    color: "#000",
   },
   title_login: {
     fontSize: 15,
-    color: "#000",
+    color: "#fff",
     marginBottom: 15,
     marginTop: 15,
     fontWeight: "bold",
+
   },
   title_main: {
     fontSize: 24,
-    color: "#000",
+    color: "#fff",
     fontWeight: "bold",
     marginTop: 10,
   },
@@ -137,6 +144,8 @@ const styles = StyleSheet.create({
     borderColor: "gray",
     borderWidth: 1,
     padding: 10,
+    backgroundColor: "#fff",
+    color: "#fff",
   },
 });
 

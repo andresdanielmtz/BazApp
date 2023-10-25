@@ -1,5 +1,5 @@
 # BazApp
-## An application for all the bazar you need.
+## An application for all the bazaar you need.
 ## Una aplicación para todos los bazares que necesites.
 
 ### English 

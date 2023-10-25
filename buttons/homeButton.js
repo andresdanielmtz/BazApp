@@ -25,15 +25,16 @@ function HomeButton({ navigation }) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: '#00192A',  // Change this to your desired color
+    backgroundColor: '#fff',  // Change this to your desired color
     padding: 10,
     borderRadius: 15,
     margin: 10,
     alignItems: 'center',
     justifyContent: 'center',
+    
   },
   buttonText: {
-    color: '#fff',  // Change this to your desired color
+    color: '#000',  // Change this to your desired color
     fontSize: 16,
   },
 });
