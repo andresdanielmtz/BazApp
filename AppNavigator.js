@@ -15,12 +15,12 @@ function AppNavigator() {
   return (
     <Stack.Navigator initialRouteName="Home" 
     >
-      <Stack.Screen name="Home" component={Home}/>
-      <Stack.Screen name="Buyer" component={Buyer} />
-      <Stack.Screen name="Seller" component = {Seller} />
-      <Stack.Screen name="AddSeller" component = {AddSeller} /> 
-      <Stack.Screen name="DeleteSeller" component = {DeleteSeller} /> 
-      <Stack.Screen name="AddSellerGet" component = {AddSellerGet} />
+      <Stack.Screen name="Inicio" component={Home}/>
+      <Stack.Screen name="Cliente" component={Buyer} />
+      <Stack.Screen name="Vendedor" component = {Seller} />
+      <Stack.Screen name="Agrega Producto" component = {AddSeller} /> 
+      <Stack.Screen name="Elimina Producto" component = {DeleteSeller} /> 
+      <Stack.Screen name="Llena tu Formulario" component = {AddSellerGet} />
 
     </Stack.Navigator>
   );
