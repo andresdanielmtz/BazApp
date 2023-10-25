@@ -6,6 +6,7 @@ import Buyer from './view/Buyer/Buyer';
 import Seller from './view/Seller/Seller';
 import AddSeller from './view/Seller/AddSeller';
 import DeleteSeller from './view/Seller/DeleteSeller';
+import AddSellerGet from './view/Seller/AddSellerGet';
 
 
 const Stack = createStackNavigator();
@@ -19,7 +20,7 @@ function AppNavigator() {
       <Stack.Screen name="Seller" component = {Seller} />
       <Stack.Screen name="AddSeller" component = {AddSeller} /> 
       <Stack.Screen name="DeleteSeller" component = {DeleteSeller} /> 
-
+      <Stack.Screen name="AddSellerGet" component = {AddSellerGet} />
 
     </Stack.Navigator>
   );
