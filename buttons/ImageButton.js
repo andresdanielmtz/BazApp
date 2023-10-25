@@ -1,8 +1,7 @@
-import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView, Alert, Image } from 'react-native';
+import { Text, StyleSheet, TouchableOpacity, Alert } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import { firebase } from "../firebaseConfig";
 import React, { useState } from 'react';
-import * as FileSystem from 'expo-file-system';
 
 function ImageButton({ onImageUpload }) {
 

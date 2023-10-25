@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { StyleSheet, Text, View, Image, Button, TextInput, ScrollView} from "react-native";
+import { StyleSheet, Text, ScrollView} from "react-native";
 import BuyerPost from './BuyerPost';  // Adjust the import path to match the location of BuyerPost.js
 
 const Buyer = () => { 

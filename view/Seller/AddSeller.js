@@ -1,7 +1,6 @@
 import React from 'react'; 
 import { useNavigation } from "@react-navigation/native";
-import { StyleSheet, Text, View, Image, Button, TextInput, ScrollView, Pressable} from "react-native";
-import { Entypo } from '@expo/vector-icons';
+import { StyleSheet, Text, View, ScrollView} from "react-native";
 import BuyerPost from '../../view/Buyer/BuyerPost'; 
 import AddContentButton from '../../buttons/AddContentButton';
 

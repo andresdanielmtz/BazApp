@@ -1,6 +1,5 @@
 import React from 'react'; 
-import { useNavigation } from "@react-navigation/native";
-import { StyleSheet, Text, View, Image, Button, TextInput, ScrollView} from "react-native";
+import { StyleSheet, Text, View, ScrollView} from "react-native";
 import BuyerPost from '../../view/Buyer/BuyerPost'; 
 
 const DeleteSeller = () => { 

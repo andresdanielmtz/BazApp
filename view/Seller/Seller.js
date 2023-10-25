@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { useNavigation } from "@react-navigation/native";
-import { StyleSheet, Text, View, Image, Button, TextInput, ScrollView} from "react-native";
+import { StyleSheet, Text, View, ScrollView} from "react-native";
 import SellerButton from "../../buttons/sellerButton";
 
 const Seller = () => { 

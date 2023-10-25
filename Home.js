@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
-import { StyleSheet, Text, View, Image, Button, TextInput } from "react-native";
+import { StyleSheet, Text, View, Image, TextInput } from "react-native";
 import Logo from "./assets/logo.png";
 import HomeButton from "./buttons/homeButton";
 
