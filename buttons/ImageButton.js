@@ -21,7 +21,7 @@ function ImageButton({ onImageUpload }) {
       setUploading(true);
 
       try {
-        const uri = image;
+        const uri = result.assets[0].uri;
         const blob = await new Promise((resolve, reject) => {
           const xhr = new XMLHttpRequest();
           xhr.onload = () => {
@@ -35,7 +35,7 @@ function ImageButton({ onImageUpload }) {
           xhr.send(null);
         });
 
-        const filename = image.substring(image.lastIndexOf('/') + 1);
+        const filename = uri.substring(uri.lastIndexOf('/') + 1);
         const ref = firebase.storage().ref().child(filename);
         await ref.put(blob);
         setUploading(false);
