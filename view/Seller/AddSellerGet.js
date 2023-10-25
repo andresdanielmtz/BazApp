@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, ScrollView } from "react-native";
 import Checkbox from 'expo-checkbox';
 import AddProductButton from '../../buttons/AddProductButton';
+import ImageButton from '../../buttons/ImageButton';
 
 const AddSellerGet = () => {
     const [title, setTitle] = useState('');
     const [subtitle, setSubtitle] = useState('');
     const [used, setUsed] = useState(false);
-    const [footer, setFooter] = useState(''); 
+    const [footer, setFooter] = useState('');
 
     return (
         <ScrollView style={styles.container}>
@@ -38,6 +39,7 @@ const AddSellerGet = () => {
             onChangeText={text => setFooter(text)}
             keyboardType="numeric"
           />
+          <ImageButton/>
           <AddProductButton title={title} subtitle={subtitle} used={used} footer={footer} />
         </ScrollView>
     );

@@ -3,7 +3,6 @@ import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 import { SaveData } from '../view/Seller/saveData';
 
 function AddProductButton(title, subtitle, used, footer) {
-
   return (
     <>
       <TouchableOpacity 
