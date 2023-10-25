@@ -19,10 +19,17 @@ web-build/
 # Metro
 .metro-health-check*
 
+# Yarn
+yarn.lock
+
+# Bun
+bun.lockb
+
 # debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+test.js
 
 # macOS
 .DS_Store
