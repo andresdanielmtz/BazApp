@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules/
+ios/
 
 # Expo
 .expo/
@@ -25,7 +26,13 @@ yarn.lock
 # Bun
 bun.lockb
 
-# debug
+# Babel
+babel.config.js
+
+# Metro
+metro.config.js
+
+# Debugging
 npm-debug.*
 yarn-debug.*
 yarn-error.*
