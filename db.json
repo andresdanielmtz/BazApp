@@ -134,6 +134,142 @@
       "bazar": "Bazar de la Facultad de Ciencias De La Comunicación",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/15.jpeg?alt=media&token=e8db4b27-22eb-4762-bd42-8b5a08075173",
       "id": 15
+    },
+    {
+      "title": "Assessdsa",
+      "subtitle": "Daddy’s",
+      "used": true,
+      "footer": "sdasdsasa",
+      "id": 16
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "used": false,
+      "footer": "",
+      "id": 17
+    },
+    {
+      "title": "Sudadera Itachi",
+      "subtitle": "XL",
+      "used": true,
+      "footer": "120",
+      "id": 18
+    },
+    {
+      "title": "Sudadera Goku Supreme",
+      "subtitle": "S",
+      "used": true,
+      "footer": "100",
+      "id": 19
+    },
+    {
+      "title": "Camiseta Goku Supreme",
+      "subtitle": "M",
+      "used": true,
+      "footer": "250",
+      "id": 20
+    },
+    {
+      "title": "Sdssdse",
+      "subtitle": "Dadas",
+      "used": true,
+      "footer": "asdasd",
+      "id": 21
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "used": false,
+      "footer": "",
+      "id": 22
+    },
+    {
+      "title": "Camiseta Supergenial",
+      "subtitle": "XS",
+      "used": true,
+      "footer": "1231923",
+      "id": 23
+    },
+    {
+      "title": "Based Shirt",
+      "subtitle": "XS",
+      "used": true,
+      "image": null,
+      "footer": "219301823",
+      "id": 24
+    },
+    {
+      "title": "Shirt",
+      "subtitle": "M",
+      "used": true,
+      "image": null,
+      "footer": "23",
+      "id": 25
+    },
+    {
+      "title": "Shirt",
+      "subtitle": "M",
+      "used": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/2A7C3C76-DEEA-4C60-8FD2-314AE6B4F6F3.png?alt=media&token=c2970049-c021-4af8-a3a5-e75240b60d9b",
+      "footer": "23",
+      "id": 26
+    },
+    {
+      "title": "Gato Aburrido",
+      "subtitle": "Gato Grande",
+      "used": false,
+      "image": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/68CBC5A0-F8BF-4467-BFDA-A8119D17B5C3.jpg?alt=media&token=191e2ac8-0f10-4e8d-81e5-0e4e859d0fe1",
+      "footer": "230",
+      "id": 27
+    },
+    {
+      "title": "Andres Sandoval",
+      "subtitle": "30 centimetros",
+      "used": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/DC25152A-12AF-4514-951A-19D0408D3CC0.jpg?alt=media&token=7ff556cc-33a7-4b63-8b26-cbdb35d073f9",
+      "footer": "350",
+      "id": 28
+    },
+    {
+      "title": "Bruh",
+      "subtitle": "Bruh Moment",
+      "used": true,
+      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/985E1717-A727-4709-AFFD-279DC0B36B6F.png?alt=media&token=2d630dd4-3735-4cbe-9bdf-6cdfd61e8b7b",
+      "footer": "123",
+      "id": 29
+    },
+    {
+      "title": "Ramon",
+      "subtitle": "Ramon chiquito ",
+      "used": true,
+      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/B0FFA1F8-352E-42C7-98F5-A3FF3E257B1B.jpg?alt=media&token=3d07222b-bfa3-4ef7-85b6-08a5f14a07ff",
+      "footer": "203",
+      "id": 30
+    },
+    {
+      "title": "I’magen graciosa",
+      "subtitle": "Bruh",
+      "used": true,
+      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/841B876D-C6C6-4980-A280-9AA69DB49B21.jpg?alt=media&token=327c4950-8416-4ae2-8c1a-110df6047a91",
+      "footer": "920834320984",
+      "id": 31
+    },
+    {
+      "title": "Ramon grande",
+      "subtitle": "Grande",
+      "used": true,
+      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/FE2E46ED-C4DE-4DC3-A165-CB509C45CE04.jpg?alt=media&token=d95d6c3e-feb7-4fa8-8c50-dfb17de05dcb",
+      "footer": "3905834059",
+      "id": 32
+    },
+    {
+      "title": "Peluche de Gato",
+      "subtitle": "20cm",
+      "used": true,
+      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/B411F7A4-F446-4170-A05F-464B3BA21C6C.jpg?alt=media&token=cb87090b-2932-43e1-a956-4b7b7c6d449d",
+      "footer": "32098",
+      "id": 33
     }
   ]
 }
