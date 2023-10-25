@@ -8,6 +8,7 @@ const AddSellerGet = () => {
     const [title, setTitle] = useState('');
     const [subtitle, setSubtitle] = useState('');
     const [used, setUsed] = useState(false);
+    const [bazar, setBazar] = useState('');
     const [footer, setFooter] = useState('');
     const [image, setImage] = useState(null);
 
@@ -37,6 +38,12 @@ const AddSellerGet = () => {
               color="#00192A"
             />
           </View>
+          <Text style={styles.label}>Bazar:</Text>
+          <TextInput
+            style={styles.input}
+            value={bazar}
+            onChangeText={text => setBazar(text)}
+          />
           <Text style={styles.label}>Precio (MXN):</Text>
           <TextInput
             style={styles.input}
@@ -45,7 +52,7 @@ const AddSellerGet = () => {
             keyboardType="numeric"
           />
           <ImageButton onImageUpload={handleImageUpload}/>
-          <AddProductButton title={title} subtitle={subtitle} used={used} img={image} footer={footer} />
+          <AddProductButton title={title} subtitle={subtitle} used={used} bazar={bazar} img={image} footer={footer} />
         </ScrollView>
     );
 }

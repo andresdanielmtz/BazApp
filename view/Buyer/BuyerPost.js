@@ -15,6 +15,7 @@ const BuyerPost = () => {
             <Text style={styles.subtitleText}>{`${item.subtitle}, ${
               item.used ? 'Usado' : 'Nuevo'
             }`}</Text>
+            <Text style={styles.subtitleText}>{item.bazar}</Text>
             <Text style={styles.footerText}>${item.footer}MXN</Text>
           </View>
         ))}

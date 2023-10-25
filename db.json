@@ -5,6 +5,7 @@
       "subtitle": "Talla L",
       "used": true,
       "footer": "300",
+      "bazar": "Bazar de la Facultad de Ingeniería",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/1.jpg?alt=media&token=cdfb46d7-69f3-4647-83b6-93ee961a674f",
       "id": 1
     },
@@ -13,6 +14,7 @@
       "subtitle": "Talla M",
       "used": true,
       "footer": "350",
+      "bazar": "Bazar de la Facultad de Ingeniería",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/2.jpg?alt=media&token=7a2d0439-f036-4d01-b725-fccc443867b9",
       "id": 2
     },
@@ -21,6 +23,7 @@
       "subtitle": "Talla S",
       "used": false,
       "footer": "500",
+      "bazar": "Bazar de la Facultad de Ingeniería",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/3.jpg?alt=media&token=4f789ef6-b714-4f83-9a45-a40c863d9163",
       "id": 3
     },
@@ -29,6 +32,7 @@
       "subtitle": "Talla XL",
       "used": true,
       "footer": "450",
+      "bazar": "Bazar de la Facultad de Ingeniería",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/4.jpg?alt=media&token=ff456d48-da48-488c-b129-682312554da1",
       "id": 4
     },
@@ -37,6 +41,7 @@
       "subtitle": "Talla M",
       "used": false,
       "footer": "280",
+      "bazar": "Bazar de la Facultad de Ingeniería",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/5.jpg?alt=media&token=a04f5a00-3b2c-4b84-9cd0-6045a7ddb339",
       "id": 5
     },
@@ -45,6 +50,7 @@
       "subtitle": "Talla L",
       "used": true,
       "footer": "1200",
+      "bazar": "Bazar de la Facultad de Psicología",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/6.jpg?alt=media&token=8a073f88-1064-4711-8de0-25079cbb8bcb",
       "id": 6
     },
@@ -53,6 +59,7 @@
       "subtitle": "Talla M",
       "used": false,
       "footer": "320",
+      "bazar": "Bazar de la Facultad de Psicología",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/7.jpg?alt=media&token=d9389258-c89e-4cfd-98d6-8c53147925ad",
       "id": 7
     },
@@ -61,6 +68,7 @@
       "subtitle": "Talla Única",
       "used": true,
       "footer": "180",
+      "bazar": "Bazar de la Facultad de Psicología",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/8.jpg?alt=media&token=da3e458b-c89f-4a95-9adc-2053f9267956",
       "id": 8
     },
@@ -69,6 +77,7 @@
       "subtitle": "Talla 28",
       "used": false,
       "footer": "650",
+      "bazar": "Bazar de la Facultad de Psicología",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/9.png?alt=media&token=c9ee27f2-2304-40df-8b4e-e390b9c4a0a3",
       "id": 9
     },
@@ -77,6 +86,7 @@
       "subtitle": "Talla Única",
       "used": true,
       "footer": "220",
+      "bazar": "Bazar de la Facultad de Psicología",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/10.jpeg?alt=media&token=cd939435-186a-4913-9aa7-17df9d7bd801",
       "id": 10
     },
@@ -85,6 +95,7 @@
       "subtitle": "Talla 34",
       "used": false,
       "footer": "400",
+      "bazar": "Bazar de la Facultad de Ciencias De La Comunicación",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/11.jpeg?alt=media&token=46672fff-05bc-4ae2-b887-7eae2ee65061",
       "id": 11
     },
@@ -93,6 +104,7 @@
       "subtitle": "Talla 26-28",
       "used": true,
       "footer": "110",
+      "bazar": "Bazar de la Facultad de Ciencias De La Comunicación",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/12.jpeg?alt=media&token=2074afa2-a739-4577-9e5f-a88132ac294a",
       "id": 12
     },
@@ -101,6 +113,7 @@
       "subtitle": "Talla Única",
       "used": false,
       "footer": "1500",
+      "bazar": "Bazar de la Facultad de Ciencias De La Comunicación",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/13.jpeg?alt=media&token=076bfd45-e5ea-4bf4-957b-f39c2666dbcb",
       "id": 13
     },
@@ -109,6 +122,7 @@
       "subtitle": "Talla Única",
       "used": true,
       "footer": "900",
+      "bazar": "Bazar de la Facultad de Ciencias De La Comunicación",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/14.jpeg?alt=media&token=6c487bd4-4874-40f5-ab8a-4903e24abb44",
       "id": 14
     },
@@ -117,136 +131,9 @@
       "subtitle": "Talla Única",
       "used": false,
       "footer": "800",
+      "bazar": "Bazar de la Facultad de Ciencias De La Comunicación",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/15.jpeg?alt=media&token=e8db4b27-22eb-4762-bd42-8b5a08075173",
       "id": 15
-    },
-    {
-      "title": "Assessdsa",
-      "subtitle": "Daddy’s",
-      "used": true,
-      "footer": "sdasdsasa",
-      "id": 16
-    },
-    {
-      "title": "",
-      "subtitle": "",
-      "used": false,
-      "footer": "",
-      "id": 17
-    },
-    {
-      "title": "Sudadera Itachi",
-      "subtitle": "XL",
-      "used": true,
-      "footer": "120",
-      "id": 18
-    },
-    {
-      "title": "Sudadera Goku Supreme",
-      "subtitle": "S",
-      "used": true,
-      "footer": "100",
-      "id": 19
-    },
-    {
-      "title": "Camiseta Goku Supreme",
-      "subtitle": "M",
-      "used": true,
-      "footer": "250",
-      "id": 20
-    },
-    {
-      "title": "Sdssdse",
-      "subtitle": "Dadas",
-      "used": true,
-      "footer": "asdasd",
-      "id": 21
-    },
-    {
-      "title": "",
-      "subtitle": "",
-      "used": false,
-      "footer": "",
-      "id": 22
-    },
-    {
-      "title": "Camiseta Supergenial",
-      "subtitle": "XS",
-      "used": true,
-      "footer": "1231923",
-      "id": 23
-    },
-    {
-      "title": "Based Shirt",
-      "subtitle": "XS",
-      "used": true,
-      "image": null,
-      "footer": "219301823",
-      "id": 24
-    },
-    {
-      "title": "Shirt",
-      "subtitle": "M",
-      "used": true,
-      "image": null,
-      "footer": "23",
-      "id": 25
-    },
-    {
-      "title": "Shirt",
-      "subtitle": "M",
-      "used": true,
-      "image": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/2A7C3C76-DEEA-4C60-8FD2-314AE6B4F6F3.png?alt=media&token=c2970049-c021-4af8-a3a5-e75240b60d9b",
-      "footer": "23",
-      "id": 26
-    },
-    {
-      "title": "Gato Aburrido",
-      "subtitle": "Gato Grande",
-      "used": false,
-      "image": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/68CBC5A0-F8BF-4467-BFDA-A8119D17B5C3.jpg?alt=media&token=191e2ac8-0f10-4e8d-81e5-0e4e859d0fe1",
-      "footer": "230",
-      "id": 27
-    },
-    {
-      "title": "Andres Sandoval",
-      "subtitle": "30 centimetros",
-      "used": true,
-      "image": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/DC25152A-12AF-4514-951A-19D0408D3CC0.jpg?alt=media&token=7ff556cc-33a7-4b63-8b26-cbdb35d073f9",
-      "footer": "350",
-      "id": 28
-    },
-    {
-      "title": "Bruh",
-      "subtitle": "Bruh Moment",
-      "used": true,
-      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/985E1717-A727-4709-AFFD-279DC0B36B6F.png?alt=media&token=2d630dd4-3735-4cbe-9bdf-6cdfd61e8b7b",
-      "footer": "123",
-      "id": 29
-    },
-    {
-      "title": "Ramon",
-      "subtitle": "Ramon chiquito ",
-      "used": true,
-      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/B0FFA1F8-352E-42C7-98F5-A3FF3E257B1B.jpg?alt=media&token=3d07222b-bfa3-4ef7-85b6-08a5f14a07ff",
-      "footer": "203",
-      "id": 30
-    },
-    {
-      "title": "I’magen graciosa",
-      "subtitle": "Bruh",
-      "used": true,
-      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/841B876D-C6C6-4980-A280-9AA69DB49B21.jpg?alt=media&token=327c4950-8416-4ae2-8c1a-110df6047a91",
-      "footer": "920834320984",
-      "id": 31
-    },
-    {
-      "title": "Ramon grande",
-      "subtitle": "Grande",
-      "used": true,
-      "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/FE2E46ED-C4DE-4DC3-A165-CB509C45CE04.jpg?alt=media&token=d95d6c3e-feb7-4fa8-8c50-dfb17de05dcb",
-      "footer": "3905834059",
-      "id": 32
     }
   ]
 }
