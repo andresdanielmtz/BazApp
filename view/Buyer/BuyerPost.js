@@ -10,11 +10,12 @@ const BuyerPost = () => {
       <>
         {dbArray.map((item, index) => (
           <View key={index} style={styles.postContainer}>
+            <Image source={{ uri: item.img }} style={{ width: '100%', height: 200 }} />
             <Text style={styles.titleText}>{item.title}</Text>
             <Text style={styles.subtitleText}>{`${item.subtitle}, ${
               item.used ? 'Usado' : 'Nuevo'
             }`}</Text>
-            <Text style={styles.footerText}>{item.footer}</Text>
+            <Text style={styles.footerText}>${item.footer}MXN</Text>
           </View>
         ))}
       </>

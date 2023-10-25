@@ -4,7 +4,7 @@
       "title": "Vestido Grande SHEIN",
       "subtitle": "Talla L",
       "used": true,
-      "footer": "$300MXN",
+      "footer": "300",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/1.jpg?alt=media&token=cdfb46d7-69f3-4647-83b6-93ee961a674f",
       "id": 1
     },
@@ -12,7 +12,7 @@
       "title": "Camisa a Rayas ZARA",
       "subtitle": "Talla M",
       "used": true,
-      "footer": "$350MXN",
+      "footer": "350",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/2.jpg?alt=media&token=7a2d0439-f036-4d01-b725-fccc443867b9",
       "id": 2
     },
@@ -20,7 +20,7 @@
       "title": "Jeans Ajustados Levi's",
       "subtitle": "Talla S",
       "used": false,
-      "footer": "$500MXN",
+      "footer": "500",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/3.jpg?alt=media&token=4f789ef6-b714-4f83-9a45-a40c863d9163",
       "id": 3
     },
@@ -28,7 +28,7 @@
       "title": "Sudadera Nike Deportiva",
       "subtitle": "Talla XL",
       "used": true,
-      "footer": "$450MXN",
+      "footer": "450",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/4.jpg?alt=media&token=ff456d48-da48-488c-b129-682312554da1",
       "id": 4
     },
@@ -36,7 +36,7 @@
       "title": "Blusa Floral H&M",
       "subtitle": "Talla M",
       "used": false,
-      "footer": "$280MXN",
+      "footer": "280",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/5.jpg?alt=media&token=a04f5a00-3b2c-4b84-9cd0-6045a7ddb339",
       "id": 5
     },
@@ -44,7 +44,7 @@
       "title": "Chaqueta de Cuero GAP",
       "subtitle": "Talla L",
       "used": true,
-      "footer": "$1200MXN",
+      "footer": "1200",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/6.jpg?alt=media&token=8a073f88-1064-4711-8de0-25079cbb8bcb",
       "id": 6
     },
@@ -52,7 +52,7 @@
       "title": "Pantalones Cortos Adidas",
       "subtitle": "Talla M",
       "used": false,
-      "footer": "$320MXN",
+      "footer": "320",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/7.jpg?alt=media&token=d9389258-c89e-4cfd-98d6-8c53147925ad",
       "id": 7
     },
@@ -60,7 +60,7 @@
       "title": "Gorra Deportiva Puma",
       "subtitle": "Talla Única",
       "used": true,
-      "footer": "$180MXN",
+      "footer": "180",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/8.jpg?alt=media&token=da3e458b-c89f-4a95-9adc-2053f9267956",
       "id": 8
     },
@@ -68,7 +68,7 @@
       "title": "Tenis Converse Blancos",
       "subtitle": "Talla 28",
       "used": false,
-      "footer": "$650MXN",
+      "footer": "650",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/9.png?alt=media&token=c9ee27f2-2304-40df-8b4e-e390b9c4a0a3",
       "id": 9
     },
@@ -76,7 +76,7 @@
       "title": "Bufanda Lana Calvin Klein",
       "subtitle": "Talla Única",
       "used": true,
-      "footer": "$220MXN",
+      "footer": "220",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/10.jpeg?alt=media&token=cd939435-186a-4913-9aa7-17df9d7bd801",
       "id": 10
     },
@@ -84,7 +84,7 @@
       "title": "Cinturón Casual Tommy Hilfiger",
       "subtitle": "Talla 34",
       "used": false,
-      "footer": "$400MXN",
+      "footer": "400",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/11.jpeg?alt=media&token=46672fff-05bc-4ae2-b887-7eae2ee65061",
       "id": 11
     },
@@ -92,7 +92,7 @@
       "title": "Calcetines Polo Ralph Lauren",
       "subtitle": "Talla 26-28",
       "used": true,
-      "footer": "$110MXN",
+      "footer": "110",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/12.jpeg?alt=media&token=2074afa2-a739-4577-9e5f-a88132ac294a",
       "id": 12
     },
@@ -100,7 +100,7 @@
       "title": "Reloj Fossil Elegante",
       "subtitle": "Talla Única",
       "used": false,
-      "footer": "$1500MXN",
+      "footer": "1500",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/13.jpeg?alt=media&token=076bfd45-e5ea-4bf4-957b-f39c2666dbcb",
       "id": 13
     },
@@ -108,7 +108,7 @@
       "title": "Gafas de Sol Ray-Ban",
       "subtitle": "Talla Única",
       "used": true,
-      "footer": "$900MXN",
+      "footer": "900",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/14.jpeg?alt=media&token=6c487bd4-4874-40f5-ab8a-4903e24abb44",
       "id": 14
     },
@@ -116,7 +116,7 @@
       "title": "Mochila Herschel",
       "subtitle": "Talla Única",
       "used": false,
-      "footer": "$800MXN",
+      "footer": "800",
       "img": "https://firebasestorage.googleapis.com/v0/b/bazapp-6464.appspot.com/o/15.jpeg?alt=media&token=e8db4b27-22eb-4762-bd42-8b5a08075173",
       "id": 15
     },
@@ -133,6 +133,27 @@
       "used": false,
       "footer": "",
       "id": 17
+    },
+    {
+      "title": "Sudadera Itachi",
+      "subtitle": "XL",
+      "used": true,
+      "footer": "120",
+      "id": 18
+    },
+    {
+      "title": "Sudadera Goku Supreme",
+      "subtitle": "S",
+      "used": true,
+      "footer": "100",
+      "id": 19
+    },
+    {
+      "title": "Camiseta Goku Supreme",
+      "subtitle": "M",
+      "used": true,
+      "footer": "250",
+      "id": 20
     }
   ]
 }
