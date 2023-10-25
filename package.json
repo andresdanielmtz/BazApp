@@ -16,7 +16,13 @@
     "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-native": "0.72.6",
+<<<<<<< HEAD
     "react-native-paper": "^5.11.1"
+=======
+    "react-native-web": "~0.19.6",
+    "react-dom": "18.2.0",
+    "@expo/webpack-config": "^19.0.0"
+>>>>>>> e805c87 (modified package lock)
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
