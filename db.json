@@ -1,0 +1,116 @@
+{
+  "db": [
+    {
+      "title": "Vestido Grande SHEIN",
+      "subtitle": "Talla L",
+      "used": true,
+      "footer": "$300MXN",
+      "id": 1
+    },
+    {
+      "title": "Camisa a Rayas ZARA",
+      "subtitle": "Talla M",
+      "used": true,
+      "footer": "$350MXN",
+      "id": 2
+    },
+    {
+      "title": "Jeans Ajustados Levi's",
+      "subtitle": "Talla S",
+      "used": false,
+      "footer": "$500MXN",
+      "id": 3
+    },
+    {
+      "title": "Sudadera Nike Deportiva",
+      "subtitle": "Talla XL",
+      "used": true,
+      "footer": "$450MXN",
+      "id": 4
+    },
+    {
+      "title": "Blusa Floral H&M",
+      "subtitle": "Talla M",
+      "used": false,
+      "footer": "$280MXN",
+      "id": 5
+    },
+    {
+      "title": "Chaqueta de Cuero GAP",
+      "subtitle": "Talla L",
+      "used": true,
+      "footer": "$1200MXN",
+      "id": 6
+    },
+    {
+      "title": "Pantalones Cortos Adidas",
+      "subtitle": "Talla M",
+      "used": false,
+      "footer": "$320MXN",
+      "id": 7
+    },
+    {
+      "title": "Gorra Deportiva Puma",
+      "subtitle": "Talla Única",
+      "used": true,
+      "footer": "$180MXN",
+      "id": 8
+    },
+    {
+      "title": "Tenis Converse Blancos",
+      "subtitle": "Talla 28",
+      "used": false,
+      "footer": "$650MXN",
+      "id": 9
+    },
+    {
+      "title": "Bufanda Lana Calvin Klein",
+      "subtitle": "Talla Única",
+      "used": true,
+      "footer": "$220MXN",
+      "id": 10
+    },
+    {
+      "title": "Cinturón Casual Tommy Hilfiger",
+      "subtitle": "Talla 34",
+      "used": false,
+      "footer": "$400MXN",
+      "id": 11
+    },
+    {
+      "title": "Calcetines Polo Ralph Lauren",
+      "subtitle": "Talla 26-28",
+      "used": true,
+      "footer": "$110MXN",
+      "id": 12
+    },
+    {
+      "title": "Reloj Fossil Elegante",
+      "subtitle": "Talla Única",
+      "used": false,
+      "footer": "$1500MXN",
+      "id": 13
+    },
+    {
+      "title": "Gafas de Sol Ray-Ban",
+      "subtitle": "Talla Única",
+      "used": true,
+      "footer": "$900MXN",
+      "id": 14
+    },
+    {
+      "title": "Mochila Herschel",
+      "subtitle": "Talla Única",
+      "used": false,
+      "footer": "$800MXN",
+      "id": 15
+    },
+    {
+      "title": "Ads",
+      "subtitle": "Ddss",
+      "used": true,
+      "footer": "1213",
+      "id": 16
+    }
+  ]
+}

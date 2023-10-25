@@ -3,13 +3,13 @@ import { useNavigation } from "@react-navigation/native";
 import { StyleSheet, Text, View, Image, Button, TextInput, ScrollView, Pressable} from "react-native";
 import { Entypo } from '@expo/vector-icons';
 import BuyerPost from '../../view/Buyer/BuyerPost'; 
+import AddContentButton from '../../buttons/AddContentButton';
 
 const AddSeller = () => {
+    const navigation = useNavigation();
     return (
         <View style={styles.container}>
-            <Pressable style={styles.floatingButton}>
-                <Entypo name="plus" size={32} color="#fff" />
-            </Pressable>
+            <AddContentButton navigation={navigation} />
             <ScrollView>
                 <View style={styles.header}>
                     <Text style={styles.title}>Agregar Productos</Text>
@@ -39,26 +39,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#00192A',
         alignContent: 'center',
         justifyContent: 'center',
-    },
-    floatingButton: {
-        zIndex: 1,
-        backgroundColor: '#00192A',
-        width: 70,
-        height: 70,
-        borderRadius: 50,
-        justifyContent: 'center',
-        alignItems: 'center',
-        position: 'absolute',
-        right: 20,
-        bottom: 20,
-        shadowColor: '#000',
-        shadowOffset: {
-            width: 0,
-            height: 2,
-        },
-        shadowOpacity: .25,
-        shadowRadius: 3.84,
-        elevation: 5,
     }
 });
 
