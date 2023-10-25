@@ -2,12 +2,12 @@ import React from 'react';
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 import { SaveData } from '../view/Seller/saveData';
 
-function AddProductButton(title, subtitle, used, image, footer) {
+function AddProductButton(title, subtitle, used, img, footer) {
   return (
     <>
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => SaveData(title, subtitle, used, image, footer)}
+        onPress={() => SaveData(title, subtitle, used, img, footer)}
       >
         <Text style={styles.buttonText}>Agregar Producto</Text>
       </TouchableOpacity>

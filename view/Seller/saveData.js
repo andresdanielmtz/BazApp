@@ -1,4 +1,4 @@
-export async function SaveData(title, subtitle, used, image, footer) {
+export async function SaveData(title, subtitle, used, img, footer) {
     const endpoint = 'http://192.168.100.8:3000/db';
     
     try {
@@ -7,7 +7,7 @@ export async function SaveData(title, subtitle, used, image, footer) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(title, subtitle, used, image, footer)
+            body: JSON.stringify(title, subtitle, used, img, footer)
         });
 
         if (result.ok) {

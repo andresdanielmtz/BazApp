@@ -45,7 +45,7 @@ const AddSellerGet = () => {
             keyboardType="numeric"
           />
           <ImageButton onImageUpload={handleImageUpload}/>
-          <AddProductButton title={title} subtitle={subtitle} used={used} image={image} footer={footer} />
+          <AddProductButton title={title} subtitle={subtitle} used={used} img={image} footer={footer} />
         </ScrollView>
     );
 }
