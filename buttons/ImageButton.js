@@ -4,7 +4,7 @@ import { firebase } from "../firebaseConfig";
 import React, { useState } from 'react';
 import * as FileSystem from 'expo-file-system';
 
-function ImageButton() {
+function ImageButton({ onImageUpload }) {
 
   const [image, setImage] = useState(null);
   const [uploading, setUploading] = useState(false);
@@ -37,11 +37,14 @@ function ImageButton() {
 
         const filename = image.substring(image.lastIndexOf('/') + 1);
         const ref = firebase.storage().ref().child(filename);
-
         await ref.put(blob);
         setUploading(false);
         Alert.alert('Photo Uploaded!');
         setImage(null);
+
+        const url = await ref.getDownloadURL();
+        console.warn(url);
+        onImageUpload(url);
       } catch (error) {
           console.error(error);
           setUploading(false);

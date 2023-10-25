@@ -9,6 +9,11 @@ const AddSellerGet = () => {
     const [subtitle, setSubtitle] = useState('');
     const [used, setUsed] = useState(false);
     const [footer, setFooter] = useState('');
+    const [image, setImage] = useState(null);
+
+    const handleImageUpload = (url) => {
+      setImage(url);
+    };
 
     return (
         <ScrollView style={styles.container}>
@@ -39,8 +44,10 @@ const AddSellerGet = () => {
             onChangeText={text => setFooter(text)}
             keyboardType="numeric"
           />
-          <ImageButton/>
-          <AddProductButton title={title} subtitle={subtitle} used={used} footer={footer} />
+          <ImageButton onImageUpload={handleImageUpload}/>
+          {/* Display the received URL, if available */}
+          {image && <Text>Uploaded Image URL: {image}</Text>}
+          <AddProductButton title={title} subtitle={subtitle} used={used} image={image} footer={footer} />
         </ScrollView>
     );
 }

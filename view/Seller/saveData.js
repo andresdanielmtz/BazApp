@@ -1,12 +1,5 @@
-<<<<<<< Updated upstream
-export async function SaveData(title, subtitle, used, footer) {
-    const endpoint = 'http://192.168.1.65:3000/db';
-    // ramon: 
-    // const endpoint = 'http://192.168.100.8:3000/db';
-=======
 export async function SaveData(title, subtitle, used, image, footer) {
-    const endpoint = 'http://192.168.100.8:3000/db';
->>>>>>> Stashed changes
+    const endpoint = 'http://YOUR_IP:3000/db';
     
     try {
         const result = await fetch(endpoint, {
@@ -14,7 +7,7 @@ export async function SaveData(title, subtitle, used, image, footer) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(title, subtitle, used, footer)
+            body: JSON.stringify(title, subtitle, used, image, footer)
         });
 
         if (result.ok) {
