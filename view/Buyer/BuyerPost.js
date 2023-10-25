@@ -1,26 +1,25 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button, TextInput} from "react-native";
-import BuyerJSON from "../../custom_prototype.json"; 
+import BuyerJSON from "../../db.json"; 
 
 
 const BuyerPost = () => {
-    return ( 
-        <>
-            {Object.keys(BuyerJSON).map(key => (
-                <View key={key} style={styles.postContainer}>
-                    <Text style={styles.titleText}>{BuyerJSON[key].title}</Text>
-                    <Text style={styles.subtitleText}>{BuyerJSON[key].subtitle}, 
-                    { BuyerJSON[key].used ? <Text> Usado</Text> : <Text> Nuevo</Text>}</Text>
-
-
-
-                    <Text style={styles.footerText}>{BuyerJSON[key].footer}</Text>
-                </View>
-            ))}
-        </>
-
-    )
-}; 
+    const dbArray = BuyerJSON.db;
+  
+    return (
+      <>
+        {dbArray.map((item, index) => (
+          <View key={index} style={styles.postContainer}>
+            <Text style={styles.titleText}>{item.title}</Text>
+            <Text style={styles.subtitleText}>{`${item.subtitle}, ${
+              item.used ? 'Usado' : 'Nuevo'
+            }`}</Text>
+            <Text style={styles.footerText}>{item.footer}</Text>
+          </View>
+        ))}
+      </>
+    );
+  }; 
 
 const styles = StyleSheet.create({
     postContainer: {
