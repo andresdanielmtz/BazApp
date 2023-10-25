@@ -10,7 +10,7 @@ const BuyerPost = () => {
       <>
         {dbArray.map((item, index) => (
           <View key={index} style={styles.postContainer}>
-            <Image source={{ uri: item.img }} style={{ width: '100%', height: 200 }} />
+            <Image source={{ uri: item.img }} style={{ width: '100%', height: 200, borderRadius: 20}} />
             <Text style={styles.titleText}>{item.title}</Text>
             <Text style={styles.subtitleText}>{`${item.subtitle}, ${
               item.used ? 'Usado' : 'Nuevo'
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#f9f9f9',
         borderRadius: 5,
         marginLeft: 15, 
+        marginRight: 15, 
     },
     titleText: {
         fontSize: 18,

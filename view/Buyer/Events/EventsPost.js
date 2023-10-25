@@ -20,7 +20,7 @@ const EventsPost = () => {
         <View onTouchEnd={() => Linking.openURL(getGoogleMapsURL(item.coordenadas))}>
           <Image
             source={{ uri: item.img }}
-            style={{ width: "100%", height: 200 }}
+            style={{ width: "100%", height: 200, borderRadius: 20 }}
           />
     
     </View>
@@ -40,7 +40,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     backgroundColor: "#f9f9f9",
     borderRadius: 5,
-    marginLeft: 15,
+    marginLeft: 15, 
+    marginRight: 15, 
   },
   titleText: {
     fontSize: 18,
