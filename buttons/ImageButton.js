@@ -43,7 +43,6 @@ function ImageButton({ onImageUpload }) {
         setImage(null);
 
         const url = await ref.getDownloadURL();
-        console.warn(url);
         onImageUpload(url);
       } catch (error) {
           console.error(error);

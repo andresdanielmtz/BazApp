@@ -1,5 +1,5 @@
 export async function SaveData(title, subtitle, used, image, footer) {
-    const endpoint = 'http://YOUR_IP:3000/db';
+    const endpoint = 'http://192.168.100.8:3000/db';
     
     try {
         const result = await fetch(endpoint, {

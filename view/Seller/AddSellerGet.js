@@ -45,8 +45,6 @@ const AddSellerGet = () => {
             keyboardType="numeric"
           />
           <ImageButton onImageUpload={handleImageUpload}/>
-          {/* Display the received URL, if available */}
-          {image && <Text>Uploaded Image URL: {image}</Text>}
           <AddProductButton title={title} subtitle={subtitle} used={used} image={image} footer={footer} />
         </ScrollView>
     );
