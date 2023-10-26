@@ -1,16 +1,15 @@
 import React from 'react'; 
 import { StyleSheet, Text, View, ScrollView} from "react-native";
-import BuyerPost from '../../view/Buyer/BuyerPost'; 
+import SellerDelete from '../../view/Seller/SellerDelete'; 
 
 const DeleteSeller = () => { 
-
     return ( 
         <ScrollView>
             <View style={styles.container}>
                 <View style={styles.header}>
                         <Text style={styles.title}>Eliminar Productos</Text>
                 </View>
-                <BuyerPost/>
+                <SellerDelete/>
             </View>   
         </ScrollView>
     )
@@ -20,6 +19,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: "#fff",
+        justifyContent: 'center',
 
     },
     title: {
