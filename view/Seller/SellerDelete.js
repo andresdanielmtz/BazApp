@@ -31,7 +31,7 @@ const SellerDelete = () => {
           ]}
           onPress={() => createTwoButtonAlert(item.id)}
         >
-          <Image source={{ uri: item.img }} style={{ width: '100%', height: 200 }} />
+          <Image source={{ uri: item.img }} style={{ width: '100%', height: 200, borderRadius: 20 }} />
           <Text style={styles.titleText}>{item.title}</Text>
           <Text style={styles.subtitleText}>{`${item.subtitle}, ${item.used ? 'Usado' : 'Nuevo'}`}</Text>
           <Text style={styles.subtitleText}>{item.bazar}</Text>

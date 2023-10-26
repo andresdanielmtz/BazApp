@@ -29,12 +29,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
         backgroundColor: '#f9f9f9',
         borderRadius: 5,
-<<<<<<< HEAD
         margin: 10
-=======
-        marginLeft: 15, 
-        marginRight: 15, 
->>>>>>> df9349ba7883870452848f8262ab2b5d06988e3b
     },
     titleText: {
         fontSize: 18,
