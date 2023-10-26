@@ -1,0 +1,25 @@
+{
+  "db": [
+    {
+      "titulo":"Bazar en Residencial Toscana", 
+      "coordenadas": [29.135005189713386, -110.95776194105427], 
+      "fecha": "2023-12-12",
+      "img": "https://i.imgur.com/vTZTVTq.png", 
+      "hora": "12:00PM"
+    },
+    { 
+      "titulo": "Bazar de la Facultad de Ingenieria", 
+      "coordenadas": [29.075925526962635, -110.96144710494944],
+      "fecha": "2023-12-10",
+      "img": "https://media.discordapp.net/attachments/1011429768740208671/1166878004526460968/OIG.png",
+      "hora": "09:00PM"
+    },
+    {
+      "titulo": "Bazar en Monterosa Residencial", 
+      "coordenadas": [29.156480154818478, -110.95467522135418],
+      "fecha": "2023-29-10",
+      "hora": "6:00PM",
+      "img": "https://media.discordapp.net/attachments/1011429768740208671/1166876367783198771/OIG.png?ex=654c154d&is=6539a04d&hm=f9f884a8e175d221f4efdc5ce4c187d38a2c6c13ac22f1d281a546e0258de14b&=&width=1058&height=1058"
+    }
+  ]
+}
